@@ -59,6 +59,5 @@ SECTIONS
 	}
 }
 
-PROVIDE(trap_entry = 0x40);
 PROVIDE(_fstack = ORIGIN(main_ram) + LENGTH(main_ram) - 4);
 PROVIDE(flush_cpu_dcache = 0x2b7c);
